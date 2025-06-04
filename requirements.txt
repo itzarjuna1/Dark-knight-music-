@@ -1,4 +1,4 @@
-async-lru 
+async-lru
 aiofiles
 aiohttp
 asyncio
@@ -14,9 +14,10 @@ pillow==9.5.0
 psutil
 pytube
 pykeyboard
-py-tgcalls==2.0.6 
-pytgcalls==0.9.1
-ntgcalls==1.2.3
+
+# ✅ Use only the correct tgcalls fork
+py-tgcalls==2.0.6
+
 python-dotenv
 pyyaml
 requests
@@ -29,11 +30,11 @@ flask
 gunicorn
 yt-dlp
 py-yt-search==0.4.0
-pyrogram
-#git+https://github.com/joetats/youtube_search@master
-#git+https://github.com/alexmercerind/youtube-search-python@main
-https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
-git+https://github.com/yt-dlp/yt-dlp.git
-bing_image_downloader
-gpytranslate
 
+# ✅ Pyrogram from custom source (v2.1.23)
+https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
+
+# ✅ Latest yt-dlp directly from GitHub
+git+https://github.com/yt-dlp/yt-dlp.git
+
+bing_image
