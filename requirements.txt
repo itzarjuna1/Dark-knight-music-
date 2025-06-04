@@ -29,3 +29,10 @@ gunicorn
 yt-dlp
 py-yt-search>=0.2
 pyrogram
+#git+https://github.com/joetats/youtube_search@master
+#git+https://github.com/alexmercerind/youtube-search-python@main
+https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
+git+https://github.com/yt-dlp/yt-dlp.git
+bing_image_downloader
+gpytranslate
+
