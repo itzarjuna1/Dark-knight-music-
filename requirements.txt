@@ -29,8 +29,7 @@ uvloop
 flask
 gunicorn
 yt-dlp
-py-yt-search==0.4.0
-
+py-yt-search==0.3
 # ✅ Pyrogram from custom source (v2.1.23)
 https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
 
