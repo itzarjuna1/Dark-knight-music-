@@ -15,7 +15,7 @@ psutil
 pytube
 pykeyboard
 py-tgcalls==2.0.6 
-pytgcalls==0.0.15
+pytgcalls==1.2.3
 ntgcalls==1.2.3
 python-dotenv
 pyyaml
@@ -28,7 +28,7 @@ uvloop
 flask
 gunicorn
 yt-dlp
-py-yt-search>=0.2
+py-yt-search==0.4.0
 pyrogram
 #git+https://github.com/joetats/youtube_search@master
 #git+https://github.com/alexmercerind/youtube-search-python@main
