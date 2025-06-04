@@ -12,13 +12,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "28715018"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "1284dd4df7e90486ec76d57b5cdb8f5c")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7762008642:AAGzyNKl7npZviatZ7dRngbYxNtaAkQGYKE")
 
 
 # Database to save your chats and stats... 
@@ -50,7 +50,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7048354045").split())
+    map(int, getenv("OWNER_ID", "7926944005").split())
 )  # Input type must be interger
 
 
@@ -111,11 +111,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TomatoFist"
+    "SUPPORT_CHANNEL", "https://t.me/dark_x_knight_musiczz_support"
 )
 
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Itz_venom_family"
+    "SUPPORT_GROUP", "https://t.me/dark_knight_support"
 )  
 
 
@@ -170,7 +170,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 #
 SET_CMDS = getenv("SET_CMDS", "True")
 
-raw_sessions = getenv("STRING_SESSIONS", "")
+raw_sessions = getenv("STRING_SESSIONS", "BQG2KAoALcfF3nbDUejEKqS-rTzJlXo_Dl-sHXhCP2W2EW8ludPdAJMTv2Uc6rMn18JyeqQzz1yJpSyndtVR8QWayBGL69wMIg0xW0MrzhPm7pmwaoBcwMgk4fAQphdmbvY3x5zdM5xLYXu_elHMp8FTShO9HzvXgluiOMnIE3xZ49ZHCVQ2ZrMk0-RkIrrjuwroE-eUDYjsT2vUow9E4oMw1Etgdy5XLyMLCVYxYn5MzFi5gOAVk4-zUs_htEIpg0l1Mp5IUGJBl35CTouTz0jgfQFRpNkODO04k3gMrjS8wqt8_wvNk4isMvEDkF62dNsUap7d-gUzERtBQ6TLaHDB8JSuagAAAAHGIRP-AA")
 
 # Split the sessions only if raw_sessions is not empty
 STRING_SESSIONS = list(map(str.strip, raw_sessions.split(","))) if raw_sessions else []
@@ -196,67 +196,67 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/7d9c0fec898bbee09ba95.jpg",
+    "https://files.catbox.moe/m59g3q.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/95fcd2ec79b527ae3fac4.jpg",
+    "https://files.catbox.moe/syphnd.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/f739e6067725fa88ce8d3.jpg",
+    "https://files.catbox.moe/fclzlo.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/95fcd2ec79b527ae3fac4.jpg",
+    "https://files.catbox.moe/m59g3q.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/c66abbf490158487fdb72.jpg",
+    "https://files.catbox.moe/kbc950.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/3d130381bf5945c139023.jpg",
+    "https://files.catbox.moe/xqc1qo.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/d3663021fb51e14a84aa9.jpg",
+    "https://files.catbox.moe/xlpm6k.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/248e6858de3f2e37393c1.jpg",
+    "https://files.catbox.moe/9j4mgl.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://te.legra.ph/file/1b78431fe8de0e497c188.jpg",
+    "https://files.catbox.moe/9j4mgl.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/98622051acad1988886be.jpg",
+    "https://files.catbox.moe/3n6u3x.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://te.legra.ph/file/c03f25028fa248401d519.jpg",
+    "https://files.catbox.moe/5vvy5c.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://te.legra.ph/file/9fe24bde84b1d31f685a9.jpg",
+    "https://files.catbox.moe/jvxasj.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/7345db59ab5d2c5cb142a.jpg",
+    "https://files.catbox.moe/ad3e69.jpg",
 )
 
 
