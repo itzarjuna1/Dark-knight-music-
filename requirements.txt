@@ -15,7 +15,7 @@ psutil
 pytube
 pykeyboard
 
-# ✅ Use only one correct tgcalls fork (others removed)
+# ✅ Correct tgcalls fork
 py-tgcalls==2.0.6
 
 python-dotenv
@@ -29,15 +29,13 @@ uvloop
 flask
 gunicorn
 yt-dlp
-
-# ✅ Use only available version of py-yt-search
 py-yt-search==0.3
 
-# ✅ Pyrogram custom version
-https://github.com/KurimuzonAkuma/pyrogram/archive/v2.1.23.zip
+# ✅ Pyrogram from correct GitHub zip
+https://github.com/KurimuzonAkuma/pyrogram/archive/refs/tags/v2.1.23.zip
 
-# ✅ Always up-to-date yt-dlp
+# ✅ Latest yt-dlp direct from GitHub (safe to leave, same as installed version)
 git+https://github.com/yt-dlp/yt-dlp.git
 
-# ✅ Correct package name for Bing image search
+# ✅ Correct package name for bing image downloader
 bing-image-downloader
