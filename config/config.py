@@ -22,7 +22,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7762008642:AAGizgjwfBc6MctGVEto_27MI8OPar8JXWI"
 
 
 # Database to save your chats and stats... 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://darkxknight:<db_password>@cluster0.zjvmg2i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 CLEANMODE_DELETE_MINS = int(
