@@ -1,4 +1,4 @@
-async-lru
+async-lru 
 aiofiles
 aiohttp
 asyncio
@@ -15,7 +15,7 @@ psutil
 pytube
 pykeyboard
 py-tgcalls==2.0.6 
-pytgcalls==1.2.3
+pytgcalls==0.9.1
 ntgcalls==1.2.3
 python-dotenv
 pyyaml
