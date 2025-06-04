@@ -6,7 +6,7 @@ import re
 
 import aiohttp
 from bs4 import BeautifulSoup
-from py_yt import VideosSearch
+from youtubesearchpython import VideosSearch
 
 
 class Apple:
