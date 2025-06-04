@@ -1,16 +1,17 @@
 
 # All rights reserved.
 #
-
+# All rights reserved.
+#
 import re
 
 import aiohttp
 from bs4 import BeautifulSoup
-from py_yt import VideosSearch
+from youtubesearchpython import VideosSearch
 
 
 class Apple:
-    def __init__(self):
+    def init(self):
         self.regex = r"^(https:\/\/music.apple.com\/)(.*)$"
         self.base = "https://music.apple.com/in/playlist/"
 
