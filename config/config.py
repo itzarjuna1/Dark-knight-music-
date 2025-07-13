@@ -12,13 +12,13 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "28715018"))
+API_ID = int(getenv("API_ID", "26950458"))
 
-API_HASH = getenv("API_HASH", "1284dd4df7e90486ec76d57b5cdb8f5c")
+API_HASH = getenv("API_HASH", "d818b8d530e4a9b209509815ab1b9c7c")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7762008642:AAGizgjwfBc6MctGVEto_27MI8OPar8JXWI")
+BOT_TOKEN = getenv("BOT_TOKEN", "8023030133:AAGlaP-jDQQ3fVYMui10qyIsIfwZMSiSkPE")
 
 
 # Database to save your chats and stats... 
@@ -45,7 +45,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002540959252"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002866758003"))
 
 
 # Your User ID.
@@ -98,7 +98,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/venombolteop/VenomMusic",
+    "https://github.com/itzarjuna1/Dark-knight-music-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
@@ -132,7 +132,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/venombolteop/VenomMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/itzarjuna1/Dark-knight-music-")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
@@ -170,7 +170,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 #
 SET_CMDS = getenv("SET_CMDS", "True")
 
-raw_sessions = getenv("STRING_SESSIONS", "BQG2KAoALcfF3nbDUejEKqS-rTzJlXo_Dl-sHXhCP2W2EW8ludPdAJMTv2Uc6rMn18JyeqQzz1yJpSyndtVR8QWayBGL69wMIg0xW0MrzhPm7pmwaoBcwMgk4fAQphdmbvY3x5zdM5xLYXu_elHMp8FTShO9HzvXgluiOMnIE3xZ49ZHCVQ2ZrMk0-RkIrrjuwroE-eUDYjsT2vUow9E4oMw1Etgdy5XLyMLCVYxYn5MzFi5gOAVk4-zUs_htEIpg0l1Mp5IUGJBl35CTouTz0jgfQFRpNkODO04k3gMrjS8wqt8_wvNk4isMvEDkF62dNsUap7d-gUzERtBQ6TLaHDB8JSuagAAAAHGIRP-AA")
+raw_sessions = getenv("STRING_SESSIONS", "BQGbOzoABb-Ci3xqFpROac8kpohBmaAvXVwbH5CKeIq8_IehpzlXoDbCHey7YwojZCSXb2HTFsap-xVhRQoj43dnPAvpkt7UoB5JGjQ0mPwWkNvIfGY2l4EyLJLGP59UcphMuzJwUOoHbPuTNUilCXaQptDj_uaaiSbq96v5yLR3evWZRhmMRw0FtzAWVzlsxhHJp2NdOuyg9KRXgNkGuf8r62YhHXKiH5-YoxBNrqVfDp24kQVdaT1zK4ByNF0f8DqQTjvqktVU2_eEtviSWTsrUjvDha8UF1_bfY3UqSENeDcNA0RX1MzAQbncwb1NA6QJ7ujMtXZYwcqDKIiPTWu3T_c3EAAAAAGsmbxnAA")
 
 # Split the sessions only if raw_sessions is not empty
 STRING_SESSIONS = list(map(str.strip, raw_sessions.split(","))) if raw_sessions else []
